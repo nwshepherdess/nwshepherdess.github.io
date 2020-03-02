@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f7f7f7 url("images/bg01.png");
+		background: #fff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2131,7 +2131,7 @@ input, select, textarea {
 		.icon.major {
 			text-align: center;
 			cursor: default;
-			background-color: #37c0fb;
+			background-color: #64704a;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2660,13 +2660,15 @@ input, select, textarea {
 	#banner {
 		background-image: url("../../images/logo_480x480.jpg");
 		background-position: center center;
-		background-size: contain;
+		background-size: contain, cover;
+    background-repeat: no-repeat;
 		height: 28em;
 		text-align: center;
 		position: relative;
 	}
 
 		#banner header {
+      display: none;
 			position: absolute;
 			bottom: 0;
 			left: 0;
